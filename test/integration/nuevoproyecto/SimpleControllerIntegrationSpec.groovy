@@ -11,5 +11,7 @@ class SimpleControllerIntegrationSpec extends IntegrationSpec {
     }
 
     void "test something"() {
+        expect:
+            true == true
     }
 }
